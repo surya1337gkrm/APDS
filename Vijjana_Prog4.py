@@ -22,6 +22,14 @@ def genTwoNumbers(n):
     num1=int(random.random()*10**n)
     num2=int(random.random()*10**n)
 
+    if n==2:
+        num1=int(random.randint(10,99))
+        num1=int(random.randint(10,99))
+
+    elif n==3:
+            num1=int(random.randint(100,999))
+            num1=int(random.randint(100,999))
+
     return num1,num2
 
 #Defining a function to display menu and perform required operations
